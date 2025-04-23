@@ -1,1 +1,34 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "sloop";
+  src: url(./assets/fonts/Sloops.TTF);
+}
+@font-face {
+  font-family: "neue1";
+  src: url(./assets/fonts/neue/NeueHaasDisplayMediu.ttf);
+}
+@font-face {
+  font-family: "neue2";
+  src: url(./assets/fonts/neue/NeueHaasDisplayLight.ttf);
+}
+@font-face {
+  font-family: "neue3";
+  src: url(./assets/fonts/neue/NeueHaasDisplayXXThin.ttf);
+}
+@font-face {
+  font-family: "neue4";
+  src: url(./assets/fonts/neue/NeueHaasDisplayThin.ttf);
+}
+@font-face {
+  font-family: "neue5";
+  src: url(./assets/fonts/neue/NeueHaasDisplayBold.ttf);
+}
+@font-face {
+  font-family: "neue6";
+  src: url(./assets/fonts/neue/NeueHaasDisplayBlack.ttf);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
