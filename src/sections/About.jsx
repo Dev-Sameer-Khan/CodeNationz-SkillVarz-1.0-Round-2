@@ -9,43 +9,83 @@ const About1 = () => {
   gsap.registerPlugin(ScrollTrigger);
 
   useEffect(() => {
-    moveRef.current.forEach((el) => {
-      gsap.fromTo(
-        el,
-        { x: 0 },
-        {
-          x: -100,
-          willChange: "transform",
-          scrollTrigger: {
-            trigger: el,
-            start: "top bottom",
-            end: "top -150",
-            scrub: true,
-          },
-        }
-      );
-    });
+    let mm = gsap.matchMedia();
 
+mm.add("(min-width: 800px)", () => {
+  moveRef.current.forEach((el) => {
     gsap.fromTo(
-      scaleRef.current,
-      { scale: 1, marginTop: 0 },
+      el,
+      { x: 0 },
       {
-        scale: 1.35,
-        marginTop: "5rem",
+        x: -50,
         willChange: "transform",
-        ease: "none",
         scrollTrigger: {
-          trigger: scaleRef.current,
+          trigger: el,
           start: "top bottom",
-          end: "top top",
+          end: "top -150",
           scrub: true,
         },
       }
     );
+  });
+
+  gsap.fromTo(
+    scaleRef.current,
+    { scale: 1, marginTop: 0 },
+    {
+      scale: 1.35,
+      marginTop: "5rem",
+      willChange: "transform",
+      ease: "none",
+      scrollTrigger: {
+        trigger: scaleRef.current,
+        start: "top bottom",
+        end: "top top",
+        scrub: true,
+      },
+    }
+  );
+});
+
+mm.add("(max-width: 1024px)", () => {
+  moveRef.current.forEach((el) => {
+    gsap.fromTo(
+      el,
+      { x: 0 },
+      {
+        x: -20,
+        willChange: "transform",
+        scrollTrigger: {
+          trigger: el,
+          start: "top bottom",
+          end: "top -150",
+          scrub: true,
+        },
+      }
+    );
+  });
+
+  gsap.fromTo(
+    scaleRef.current,
+    { scale: 1,},
+    {
+      scale: 1.35,
+      willChange: "transform",
+      ease: "none",
+      scrollTrigger: {
+        trigger: scaleRef.current,
+        start: "top bottom",
+        end: "top top",
+        scrub: true,
+      },
+    }
+  );
+});
+   
   }, []);
 
   return (
-    <section className="w-full min-h-screen max-[599px]:w-full px-40 max-[1024px]:px-20 pt-40 max-[599px]:px-6 flex flex-col justify-center items-center leading-none overflow-hidden">
+    <section className="w-full min-h-screen max-[599px]:w-full px-40 max-[1024px]:px-20 pt-40 max-[599px]:pt-10 max-[599px]:px-6 flex flex-col justify-center items-center leading-none overflow-hidden">
       <div className="text w-full text-[8vw] max-[1024px]:text-[10.5vw] max-[599px]:text-[11.5vw]">
         <h2 className="font-[neue6] text-start">CRAFTING</h2>
         <h2
@@ -64,7 +104,7 @@ const About1 = () => {
         <h2 className="font-[sloop] text-end">Lasting Impression</h2>
       </div>
 
-      <div className="w-full flex flex-col gap-10 items-center justify-center pt-40 font-[neue1]">
+      <div className="w-full flex flex-col gap-10 items-center justify-center pt-40 max-[599px]:pt-10 font-[neue1]">
         <p className="text-[2.25vw] max-[599px]:text-[5.25vw] max-[1024px]:text-[4.25vw] text-center">
           We are a Digital Creative agency who specializes in web design and
           development for clients who care about details. Building upon my
@@ -80,7 +120,7 @@ const About1 = () => {
         <div ref={scaleRef} className="img w-full overflow-hidden">
           <img
             className="w-full h-full object-cover"
-            src="../src/assets/images/about.png"
+            src="https://res.cloudinary.com/dbgzq41x2/image/upload/v1744719237/project4_i5ajpi.png"
             alt=""
           />
         </div>

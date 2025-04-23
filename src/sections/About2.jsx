@@ -59,23 +59,23 @@ const About2 = () => {
           ref={imgRef}
           className="w-full h-full object-cover"
           style={{transform : "scale(1.3)"}}
-          src="../src/assets/images/about.1.jpg"
+          src="https://res.cloudinary.com/dbgzq41x2/image/upload/v1745431510/about.1_jl4uhv.jpg"
           alt=""
         />
       </div>
-      <div className="text1 text-[7.7vw] leading-tight font-[neue1] pt-20 z-20">
+      <div className="text1 text-[7.7vw] max-[599px]:text-[13vw] max-[1024px]:text-[13vw] leading-tight font-[neue1] pt-20 z-20">
         <h4>2+ YEARS OF </h4>
         <h4 className="text-end">AGENCY</h4>
-        <h4 className="font-[sloop] text-end text-[10vw] leading-[1]">
+        <h4 className="font-[sloop] text-end text-[10vw] max-[599px]:text-[15vw] max-[1024px]:text-[15vw] leading-[1]">
           Experience
         </h4>
       </div>
-      <div className="text2 text-[7.7vw] leading-tight font-[neue5] pt-20 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 opacity-0">
+      <div className="text2 text-[7.7vw] max-[599px]:text-[13vw] max-[1024px]:text-[13vw] leading-tight font-[neue5] pt-20 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 opacity-0">
         <h4>
           OVER 20 <br />
           COMPLEATED{" "}
         </h4>
-        <h4 className="font-[sloop] text-end text-[10vw] leading-[1]">
+        <h4 className="font-[sloop] text-end text-[10vw] max-[599px]:text-[15vw] max-[1024px]:text-[15vw] leading-[1]">
           Projects
         </h4>
       </div>
