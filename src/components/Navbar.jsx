@@ -26,7 +26,7 @@ const Navbar = () => {
         VisuaLab
       </div>
       <div className="menu flex items-center gap-10 max-[599px]:gap-5">
-        <div className="links flex items-center gap-10 text-[1vw] max-[1025px]:text-[2vw] max-[599px]:hidden">
+        <div className="links flex items-center text-white gap-10 text-[1vw] max-[1025px]:text-[2vw] max-[599px]:hidden">
           <span className="cursor-pointer">Home</span>
           <span className="cursor-pointer">About</span>
           <span className="cursor-pointer">Work</span>
