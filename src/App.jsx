@@ -1,11 +1,11 @@
 import React from "react";
-import Loader from "./components/Loader";
-import Hero from "./sections/Hero";
-import Navbar from "./components/Navbar";
-import About from "./sections/About";
-import About2 from "./sections/About2";
-import Work from "./sections/Work";
-import Footer from "./sections/Footer";
+import Hero from "./landingPage/Hero"
+import About from "./landingPage/About"
+import About2 from "./landingPage/About2"
+import Work from "./landingPage/Work"
+import Footer from "./landingPage/Footer"
+import Navbar from "./components/Navbar"
+import Loader from "./components/Loader"
 
 const App = () => {
   return (
