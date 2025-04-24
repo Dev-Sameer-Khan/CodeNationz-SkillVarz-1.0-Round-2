@@ -1,6 +1,7 @@
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   gsap.registerPlugin(ScrollTrigger);
@@ -121,7 +122,7 @@ const Hero = () => {
         </p>
         <span className="hero-line inline-block w-[0.5px] h-[12%] bg-white"></span>
         <h5 className="hero-work mt-6 font-[neue2] text-[1.3vw] max-[599px]:text-[4vw] max-[1024px]:text-[3.5vw] uppercase">
-          View Our Work
+          <a href="#work"> View Our Work</a>
         </h5>
       </div>
     </section>

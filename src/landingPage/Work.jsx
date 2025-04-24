@@ -15,12 +15,14 @@ const Work = () => {
           y: 0,
         },
         {
-          y: -200,
+          y: 300,
+          ease: "none",
+          willChange: "transform",
           scrollTrigger: {
             trigger: ".img1",
             start: "top center",
             end: "bottom center",
-            scrub: true,
+            scrub: .3,
           },
         }
       );
@@ -30,12 +32,14 @@ const Work = () => {
           y: 0,
         },
         {
-          y: -200,
+          y: 300,
+          ease: "none",
+          willChange: "transform",
           scrollTrigger: {
             trigger: ".img2",
             start: "-10% center",
             end: "bottom center",
-            scrub: true,
+            scrub: .3,
           },
         }
       );
@@ -45,12 +49,14 @@ const Work = () => {
           y: 0,
         },
         {
-          y: -200,
+          y: 300,
+          ease: "none",
+          willChange: "transform",
           scrollTrigger: {
             trigger: ".img3",
             start: "-10% center",
             end: "bottom center",
-            scrub: true,
+            scrub: .3,
           },
         }
       );
@@ -63,12 +69,14 @@ const Work = () => {
           y: 0,
         },
         {
-          y: -100,
+          y: 500,
+          ease: "none",
+          willChange: "transform",
           scrollTrigger: {
             trigger: ".img1",
             start: "top center",
             end: "500% center",
-            scrub: true,
+            scrub: .3,
           },
         }
       );
@@ -78,12 +86,14 @@ const Work = () => {
           y: 0,
         },
         {
-          y: -100,
+          y: 500,
+          ease: "none",
+          willChange: "transform",
           scrollTrigger: {
             trigger: ".img2",
             start: "-10% center",
             end: "500% center",
-            scrub: true,
+            scrub: .3,
           },
         }
       );
@@ -93,12 +103,14 @@ const Work = () => {
           y: 0,
         },
         {
-          y: -100,
+          y: 500,
+          ease: "none",
+          willChange: "transform",
           scrollTrigger: {
             trigger: ".img3",
             start: "-10% center",
             end: "500% center",
-            scrub: true,
+            scrub: .3,
           },
         }
       );
@@ -130,7 +142,7 @@ const Work = () => {
   };
 
   return (
-    <section className="w-full min-h-screen">
+    <section id="work" className="w-full min-h-screen">
       <div className="text text-[9vw] max-[599px]:text-[15vw] max-[1024px]:text-[15vw] leading-none py-40 max-[599px]:py-10 max-[1024px]:py-20 w-full flex flex-col justify-center items-center -translate-x-20">
         <h4 className="font-[sloop]">Selected</h4>
         <h4 className="font-[neue5] translate-x-1/2 -translate-y-8 max-[1024px]:translate-y-0">
@@ -149,9 +161,10 @@ const Work = () => {
         <a href="">
           <div className="img-1 h-screen w-full overflow-hidden relative ">
             <img
-              className="img1 w-full max-[1024px]:h-full object-cover"
+              className="img1 w-full h-full max-[1024px]:h-full object-cover"
               src="https://res.cloudinary.com/dbgzq41x2/image/upload/v1745431511/work1_lceomu.png"
               alt=""
+              style={{scale : 1.4}}
             />
             <div className="txt absolute leading-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 w-full h-full flex items-center flex-col justify-center text-white">
               <h1 className="font-[neue5] text-[8.5vw] max-[599px]:text-[14.5vw] max-[1024px]:text-[15vw]">
@@ -171,9 +184,10 @@ const Work = () => {
         <Link to="/wooden">
           <div className="img-2 h-screen w-full overflow-hidden relative max-[599px]:-mt-40 max-[1024px]:-mt-[25%]">
             <img
-              className="img2 w-full max-[1024px]:h-full object-cover"
+              className="img2 w-full h-full max-[1024px]:h-full object-cover"
               src="https://res.cloudinary.com/dbgzq41x2/image/upload/v1745431512/work2_mwosrs.png"
               alt=""
+              style={{scale : 1.4}}
             />
             <div className="txt absolute leading-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 w-full h-full flex items-center flex-col justify-center text-white">
               <h1 className="font-[neue5] text-[8.5vw] max-[599px]:text-[14.5vw] max-[1024px]:text-[15vw]">
@@ -193,9 +207,10 @@ const Work = () => {
         <a href="">
           <div className="img-3 h-screen w-full overflow-hidden relative max-[599px]:-mt-40 max-[1024px]:-mt-[25%]">
             <img
-              className="img3 w-full max-[1024px]:h-full object-cover"
+              className="img3 w-full h-full max-[1024px]:h-full object-cover"
               src="https://res.cloudinary.com/dbgzq41x2/image/upload/v1745431511/work3_n0fagd.png"
               alt=""
+              style={{scale : 1.4}}
             />
             <div className="txt absolute leading-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 w-full h-full flex items-center flex-col justify-center text-white">
               <h1 className="font-[neue5] text-[8.5vw] max-[599px]:text-[14.5vw] max-[1024px]:text-[15vw]">
