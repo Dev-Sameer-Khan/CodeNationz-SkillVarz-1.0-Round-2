@@ -36,3 +36,8 @@
 html,body{
   scroll-behavior: smooth;
 }
+
+::selection{
+  background: #000;
+  color: #f3f4f6;
+}

@@ -194,7 +194,7 @@ mm.add("(max-width: 1024px)", () => {
   }, []);
 
   return (
-    <section id="about" className="w-full min-h-screen max-[599px]:w-full px-40 max-[1024px]:px-20 pt-40 max-[599px]:pt-0 max-[599px]:px-6 flex flex-col justify-center items-center leading-none overflow-hidden">
+    <section id="about" className="w-full bg-[#DBD3C5] min-h-screen max-[599px]:w-full px-40 max-[1024px]:px-20 pt-40 max-[599px]:pt-0 max-[599px]:px-6 flex flex-col justify-center items-center leading-none overflow-hidden">
       <div className="text w-full text-[8vw] max-[1024px]:text-[10.5vw] max-[599px]:text-[11.5vw]">
         <h2 className="text3 font-[neue6] text-start">CRAFTING</h2>
         <h2

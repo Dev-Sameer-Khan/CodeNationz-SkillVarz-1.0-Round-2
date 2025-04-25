@@ -142,7 +142,7 @@ const Work = () => {
   };
 
   return (
-    <section id="work" className="w-full min-h-screen">
+    <section id="work" className="w-full min-h-screen bg-[#DBD3C5]">
       <div className="text text-[9vw] max-[599px]:text-[15vw] max-[1024px]:text-[15vw] leading-none py-40 max-[599px]:py-10 max-[1024px]:py-20 w-full flex flex-col justify-center items-center -translate-x-20">
         <h4 className="font-[sloop]">Selected</h4>
         <h4 className="font-[neue5] translate-x-1/2 -translate-y-8 max-[1024px]:translate-y-0">
@@ -158,7 +158,7 @@ const Work = () => {
         <div className="click w-20 h-20 max-[1024px]:hidden rounded-full backdrop-blur-md z-30 fixed top-1/2 left-1/2 scale-0 flex items-center justify-center text-white font-[neue4]">
           View
         </div>
-        <a href="">
+        <a href="/valantina">
           <div className="img-1 h-screen w-full overflow-hidden relative ">
             <img
               className="img1 w-full h-full max-[1024px]:h-full object-cover"
@@ -204,7 +204,7 @@ const Work = () => {
             </div>
           </div>
         </Link>
-        <a href="">
+        <a href="/nature">
           <div className="img-3 h-screen w-full overflow-hidden relative max-[599px]:-mt-40 max-[1024px]:-mt-[25%]">
             <img
               className="img3 w-full h-full max-[1024px]:h-full object-cover"
