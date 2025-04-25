@@ -127,7 +127,7 @@ const Hero = () => {
       <img className="hero-bg absolute top-0 left-0 z-10 w-full h-full object-cover" src="https://res.cloudinary.com/dbgzq41x2/image/upload/v1745431512/herobg_kuwujx.png" alt=""/>
       <div className="hero w-full h-full flex justify-center flex-col items-center max-[599px]:px-6 max-[1024px]:px-10 text-white pt-20 relative z-20">
         <h1 className="hero-text text-[10vw] max-[599px]:text-[19vw] max-[1024px]:text-[19vw] text-center font-[neue5] leading-none">
-          VisuaLab,
+          VisuaLab, 
         </h1>
         <h4 className="hero-subtext font-[sloop] text-[4vw] max-[599px]:text-[10vw] max-[1024px]:text-[9vw] text-end ml-[15%]">
           Design Web Studio
