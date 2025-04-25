@@ -89,6 +89,6 @@ UI/UX Designer | Interface Thinker | Visual Storyteller
 
 - 🚀 **Hackathon**: SkillVarz 1.0  
 - 📌 **Round**: 2  
-- 📁 **Problem Statement**: 01 – Portfolio Website
+- 📁 **Problem Statement**: 06 OPEN INNOVATION – Build What You Want!
 
 ---
