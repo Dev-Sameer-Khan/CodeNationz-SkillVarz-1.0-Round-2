@@ -22,7 +22,7 @@ const Work = () => {
             trigger: ".img1",
             start: "top center",
             end: "bottom center",
-            scrub: .3,
+            scrub: 0.3,
           },
         }
       );
@@ -39,7 +39,7 @@ const Work = () => {
             trigger: ".img2",
             start: "-10% center",
             end: "bottom center",
-            scrub: .3,
+            scrub: 0.3,
           },
         }
       );
@@ -56,7 +56,7 @@ const Work = () => {
             trigger: ".img3",
             start: "-10% center",
             end: "bottom center",
-            scrub: .3,
+            scrub: 0.3,
           },
         }
       );
@@ -76,7 +76,7 @@ const Work = () => {
             trigger: ".img1",
             start: "top center",
             end: "500% center",
-            scrub: .3,
+            scrub: 0.3,
           },
         }
       );
@@ -93,7 +93,7 @@ const Work = () => {
             trigger: ".img2",
             start: "-10% center",
             end: "500% center",
-            scrub: .3,
+            scrub: 0.3,
           },
         }
       );
@@ -110,7 +110,7 @@ const Work = () => {
             trigger: ".img3",
             start: "-10% center",
             end: "500% center",
-            scrub: .3,
+            scrub: 0.3,
           },
         }
       );
@@ -164,7 +164,7 @@ const Work = () => {
               className="img1 w-full h-full max-[1024px]:h-full object-cover"
               src="https://res.cloudinary.com/dbgzq41x2/image/upload/v1745431511/work1_lceomu.png"
               alt=""
-              style={{scale : 1.4}}
+              style={{ scale: 1.4 }}
             />
             <div className="txt absolute leading-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 w-full h-full flex items-center flex-col justify-center text-white">
               <h1 className="font-[neue5] text-[8.5vw] max-[599px]:text-[14.5vw] max-[1024px]:text-[15vw]">
@@ -187,7 +187,7 @@ const Work = () => {
               className="img2 w-full h-full max-[1024px]:h-full object-cover"
               src="https://res.cloudinary.com/dbgzq41x2/image/upload/v1745431512/work2_mwosrs.png"
               alt=""
-              style={{scale : 1.4}}
+              style={{ scale: 1.4 }}
             />
             <div className="txt absolute leading-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 w-full h-full flex items-center flex-col justify-center text-white">
               <h1 className="font-[neue5] text-[8.5vw] max-[599px]:text-[14.5vw] max-[1024px]:text-[15vw]">
@@ -210,7 +210,7 @@ const Work = () => {
               className="img3 w-full h-full max-[1024px]:h-full object-cover"
               src="https://res.cloudinary.com/dbgzq41x2/image/upload/v1745431511/work3_n0fagd.png"
               alt=""
-              style={{scale : 1.4}}
+              style={{ scale: 1.4 }}
             />
             <div className="txt absolute leading-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 w-full h-full flex items-center flex-col justify-center text-white">
               <h1 className="font-[neue5] text-[8.5vw] max-[599px]:text-[14.5vw] max-[1024px]:text-[15vw]">

@@ -19,16 +19,21 @@ const Hero = () => {
       },
       ">=0.5"
     );
-    gsap.fromTo('.hero-bg', {
+    gsap.fromTo(
+      ".hero-bg",
+      {
         padding: 0,
-        opacity : 0
-       },{
-           padding: "1rem",
-           opacity : 1,
-           duration: 1,
-           ease: 'power4.out',
-           willChange : "padding opacity"
-       },"-=0.5")
+        opacity: 0,
+      },
+      {
+        padding: "1rem",
+        opacity: 1,
+        duration: 1,
+        ease: "power4.out",
+        willChange: "padding opacity",
+      },
+      "-=0.5"
+    );
     gsap.fromTo(
       ".hero-text",
       {
@@ -123,11 +128,17 @@ const Hero = () => {
   }, []);
   return (
     <section className="hero-wrapper w-full h-screen bg-[#DBD3C5] overflow-hidden relative">
-      <h3 className="hero-year font-[sloop] text-[2.5vw] max-[599px]:text-[6.5vw] max-[1024px]:text-[5.5vw] absolute bottom-6 left-12 max-[599px]:left-8 text-white z-30">2025</h3>
-      <img className="hero-bg absolute top-0 left-0 z-10 w-full h-full object-cover" src="https://res.cloudinary.com/dbgzq41x2/image/upload/v1745431512/herobg_kuwujx.png" alt=""/>
+      <h3 className="hero-year font-[sloop] text-[2.5vw] max-[599px]:text-[6.5vw] max-[1024px]:text-[5.5vw] absolute bottom-6 left-12 max-[599px]:left-8 text-white z-30">
+        2025
+      </h3>
+      <img
+        className="hero-bg absolute top-0 left-0 z-10 w-full h-full object-cover"
+        src="https://res.cloudinary.com/dbgzq41x2/image/upload/v1745431512/herobg_kuwujx.png"
+        alt=""
+      />
       <div className="hero w-full h-full flex justify-center flex-col items-center max-[599px]:px-6 max-[1024px]:px-10 text-white pt-20 relative z-20">
         <h1 className="hero-text text-[10vw] max-[599px]:text-[19vw] max-[1024px]:text-[19vw] text-center font-[neue5] leading-none">
-          VisuaLab, 
+          VisuaLab,
         </h1>
         <h4 className="hero-subtext font-[sloop] text-[4vw] max-[599px]:text-[10vw] max-[1024px]:text-[9vw] text-end ml-[15%]">
           Design Web Studio

@@ -10,12 +10,12 @@ import Router from "./routes/Router.jsx";
 const lenis = new Lenis();
 lenis.on("scroll", ScrollTrigger.update);
 gsap.ticker.add((time) => {
-  lenis.raf(time * 700); 
+  lenis.raf(time * 700);
 });
 gsap.ticker.lagSmoothing(0);
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router={Router}/>
+    <RouterProvider router={Router} />
   </StrictMode>
 );

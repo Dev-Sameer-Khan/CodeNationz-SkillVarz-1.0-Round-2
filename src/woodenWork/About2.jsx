@@ -3,7 +3,6 @@ import { ScrollTrigger } from "gsap/all";
 import React, { useEffect } from "react";
 
 const About2 = () => {
-
   gsap.registerPlugin(ScrollTrigger);
   useEffect(() => {
     gsap.fromTo(

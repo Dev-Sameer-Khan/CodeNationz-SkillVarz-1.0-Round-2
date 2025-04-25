@@ -12,7 +12,7 @@ const Router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    errorElement : <ErrorPage/>
+    errorElement: <ErrorPage />,
   },
   {
     path: "/wooden",

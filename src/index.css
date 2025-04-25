@@ -33,11 +33,12 @@
   display: none;
 }
 
-html,body{
+html,
+body {
   scroll-behavior: smooth;
 }
 
-::selection{
+::selection {
   background: #000;
   color: #f3f4f6;
 }

@@ -215,22 +215,62 @@ const Navbar = () => {
           </div>
           <div className="w-1/2 max-[599px]:w-full h-full pt-14 max-[599px]:pt-20 px-14 max-[599px]:px-7 pb-6 max-[599px]:pb-3 flex flex-col justify-between text-[#DBD3C5]">
             <div className="menu-links leading-none flex flex-col gap-10 max-[599px]:gap-6 text-[4.5vw] max-[599px]:text-[7vw] max-[1024px]:text-[6vw] uppercase max-[1025px]:text-[2vw]">
-              <a onClick={handleClick} className="w-fit" href="/">Home</a>
-              <a onClick={handleClick} className="w-fit" href="#about">About</a>
-              <a onClick={handleClick} className="w-fit" href="#work">Work</a>
-              <a onClick={handleClick} className="w-fit" href="/shop">Shop</a>
-              <a onClick={handleClick} className="w-fit" href="/contact">Contact</a>
+              <a onClick={handleClick} className="w-fit" href="/">
+                Home
+              </a>
+              <a onClick={handleClick} className="w-fit" href="#about">
+                About
+              </a>
+              <a onClick={handleClick} className="w-fit" href="#work">
+                Work
+              </a>
+              <a onClick={handleClick} className="w-fit" href="/shop">
+                Shop
+              </a>
+              <a onClick={handleClick} className="w-fit" href="/contact">
+                Contact
+              </a>
             </div>
             <div className="w-full text-[1.3vw] max-[599px]:text-[3.3vw] max-[1024px]:text-[2vw] max-[599px]:mt-10 flex items-center justify-between font-[neue4]">
-             <div className="flex flex-col">
-              <a href="https://www.instagram.com/aditya_09_28/" target="_blank" className="social-links">INSTAGRAM</a>
-              <a href="https://www.linkedin.com/in/aditya-k-2720a7251/"target="_blank"  className="social-links">LINKEDIN</a>
-              <a href="https://www.behance.net/adityasK386"target="_blank"  className="social-links">BRHANCE</a>
-             </div>
-             <div className="flex flex-col gap-6">
-              <a href="mailto:adi1423tya@gmail.com" target="_blank" className="social-links">adi1423tya@gmail.com</a>
-              <a href="tel:+919695882854" target="_blank" className="social-links">+91-9695882854</a>
-             </div>
+              <div className="flex flex-col">
+                <a
+                  href="https://www.instagram.com/aditya_09_28/"
+                  target="_blank"
+                  className="social-links"
+                >
+                  INSTAGRAM
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/aditya-k-2720a7251/"
+                  target="_blank"
+                  className="social-links"
+                >
+                  LINKEDIN
+                </a>
+                <a
+                  href="https://www.behance.net/adityasK386"
+                  target="_blank"
+                  className="social-links"
+                >
+                  BRHANCE
+                </a>
+              </div>
+              <div className="flex flex-col gap-6">
+                <a
+                  href="mailto:adi1423tya@gmail.com"
+                  target="_blank"
+                  className="social-links"
+                >
+                  adi1423tya@gmail.com
+                </a>
+                <a
+                  href="tel:+919695882854"
+                  target="_blank"
+                  className="social-links"
+                >
+                  +91-9695882854
+                </a>
+              </div>
             </div>
           </div>
         </div>
