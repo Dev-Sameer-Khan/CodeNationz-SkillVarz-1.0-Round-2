@@ -3,6 +3,8 @@ import { createBrowserRouter, Route } from "react-router-dom";
 import App from "../App";
 import Wooden from "../Wooden";
 import ErrorPage from "../ErrorPage";
+import Shop from "../components/Shop";
+import ContactForm from "../components/ContactForm";
 
 const Router = createBrowserRouter([
   {
@@ -13,6 +15,14 @@ const Router = createBrowserRouter([
   {
     path: "/wooden",
     element: <Wooden />,
+  },
+  {
+    path: "/shop",
+    element: <Shop />,
+  },
+  {
+    path: "/contact",
+    element: <ContactForm />,
   },
 ]);
 

@@ -6,20 +6,20 @@ const Hero = () => {
 
   gsap.registerPlugin(ScrollTrigger);
 
-  useEffect(()=>{
-gsap.to(".scale",{
-  scale:1.2,
-  duration:1,
-  ease:"none",
-  scrollTrigger:{
-    trigger:".scale",
-    start:"center center",
-    end:"bottom center",
-    scrub: 0.3,
-    markers:true
-  }
-})
-  },[])
+//   useEffect(()=>{
+// gsap.to(".scale",{
+//   scale:1.2,
+//   duration:1,
+//   ease:"none",
+//   scrollTrigger:{
+//     trigger:".scale",
+//     start:"center center",
+//     end:"bottom center",
+//     scrub: 0.3,
+//     markers:true
+//   }
+// })
+//   },[])
 
   return (
     <div className=' max-[599px]:min-h-[60vh] min-h-screen flex  bg-[#d9d9d9]'>

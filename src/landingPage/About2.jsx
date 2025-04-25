@@ -12,7 +12,7 @@ const About2 = () => {
       imgRef.current,
       { y: 0 },
       {
-        y: -100,
+        y: 200,
         willChange: "transform",
         ease: "none",
         scrollTrigger: {
@@ -39,26 +39,56 @@ const About2 = () => {
       .fromTo(
         ".text1",
         { opacity: 0, y: 100 },
-        { opacity: 1, y: 0, willChange: "transform opacity" }
+        { opacity: 1, y: 0, willChange: "transform opacity" },
+        "a"
+      )
+      .fromTo(
+        ".line1",
+        {
+          scaleY: "0",
+        },
+        {
+          scaleY: "1",
+          transformOrigin: "top",
+          willChange: "transform",
+        },
+        "a"
       )
       .to(".text1", { opacity: 0, y: -100 })
       .fromTo(
         ".text2",
         { opacity: 0, y: 100 },
-        { opacity: 1, y: 0, willChange: "transform opacity" }
+        { opacity: 1, y: 0, willChange: "transform opacity" },
+        "b"
+      )
+      .fromTo(
+        ".line2",
+        {
+          scaleY: "0",
+        },
+        {
+          scaleY: "1",
+          transformOrigin: "top",
+          willChange: "transform",
+        },
+        "b"
       )
       .to(".text2", { opacity: 0, y: -100, willChange: "transform opacity" });
-      return () => {
-        tl.kill(); // Clean up on unmount
-      };
+    return () => {
+      tl.kill(); // Clean up on unmount
+    };
   }, []);
   return (
     <section className="about2 w-full min-h-screen text-white flex items-center justify-center bg-cover relative">
+      <div className="flex flex-col gap-4 absolute top-1/2 -translate-y-1/2 left-40 max-[599px]:left-2 z-[99]">
+        <span className="line1 h-14 w-[1.5px] bg-white"></span>
+        <span className="line2 h-14 w-[1.5px] bg-white"></span>
+      </div>
       <div className="bg w-full h-full z-10 absolute overflow-hidden">
         <img
           ref={imgRef}
           className="w-full h-full object-cover"
-          style={{transform : "scale(1.3)"}}
+          style={{ transform: "scale(1.6)" }}
           src="https://res.cloudinary.com/dbgzq41x2/image/upload/v1745431510/about.1_jl4uhv.jpg"
           alt=""
         />
