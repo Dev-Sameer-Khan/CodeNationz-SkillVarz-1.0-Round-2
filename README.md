@@ -1,5 +1,5 @@
-
-# 🚀 Proud to Present: *VisuaLab Design Studio Website* – A High-End Creative Studio Experience
+![image](https://github.com/user-attachments/assets/513b6436-7ddb-4298-9f64-6d9f64915039)
+# 🚀 VisuaLab – Awwwards-Level Design Studio Website
 
 > **"Your work deserves a stage. This is mine."**  
 > Built for the **SkillVarz 1.0 Hackathon** by **Gravity Coding x CodeNationz**
@@ -28,7 +28,7 @@ npm run dev
 
 🌐 **[Live Site](https://code-nationz-skill-varz-1-0-round-2.vercel.app/)**  
 📁 **[Source Code](https://github.com/Dev-Sameer-Khan/CodeNationz-SkillVarz-1.0-Round-2)**  
-🔗 **[LinkedIn](https://www.linkedin.com/in/sameer-khan-dev)**
+🔗 **[LinkedIn](https://www.linkedin.com/posts/dev-sameer-khan_visualab-frontenddesign-creativecoding-activity-7321596068549255168-rLCa?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFE7a3wB0BuOGd2mXQri9fhW7cW_Wc0H1uw)**
 
 ---
 
